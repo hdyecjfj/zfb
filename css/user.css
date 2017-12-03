@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "微软雅黑";
+}
+.top {
+  width: 100%;
+  height: 250px;
+  background-color: #1B82D1;
+}
+.top ul {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.top ul li {
+  font-size: 18px;
+  color: white;
+  margin: 10px;
+}
+.top img {
+  width: 100%;
+  height: 40px;
+}
+.top .main {
+  width: 100%;
+  height: 100px;
+  margin-left: 10px;
+  position: relative;
+}
+.top .main img {
+  width: 30%;
+  height: 100%;
+}
+.top .main span {
+  display: block;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  width: 20px;
+  height: 20px;
+  background-image: url(../user/2017-10-05_105656.png);
+  background-size: 100% 100%;
+}
+.top .anit {
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+  background-color: white;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.top .anit img {
+  margin: 0  10px 0 10px;
+  width: 8%;
+  height: 60%;
+}
+.top .anit a {
+  position: absolute;
+  right: 10px;
+  top: 25%;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-image: url(../user/256.png);
+  background-size: 100% 100%;
+}
+.mainbox {
+  width: 100%;
+  height: 800px;
+}
+.mainbox .box1 {
+  width: 100%;
+  height: 300px;
+}
+.mainbox .new {
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+  background-color: white;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.mainbox .new img {
+  margin: 0  10px 0 10px;
+  width: 8%;
+  height: 60%;
+}
+.mainbox .new span {
+  position: absolute;
+  right: 10px;
+  top: 25%;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-image: url(../user/256.png);
+  background-size: 100% 100%;
+}
+.mainbox .grayline {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.grayline {
+  width: 100%;
+  height: 20px;
+  background-color: #EAEEEF;
+}
+.last-line {
+  height: 30px;
+  margin-bottom: 50px;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: white;
+}
+.footer ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.footer li {
+  width: 25%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer li a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer li a img {
+  height: 80%;
+}

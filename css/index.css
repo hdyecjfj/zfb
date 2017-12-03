@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "微软雅黑";
+}
+.body {
+  display: flex;
+  flex-direction: column;
+}
+.top {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  background-color: #1B82D2;
+  padding: 10px;
+  justify-content: space-between;
+}
+.top .search {
+  display: flex;
+  background-color: #1873B9;
+  width: 70%;
+  height: 30px;
+  margin-right: 5%;
+  justify-content: space-between;
+}
+.top .search input {
+  color: white;
+  background-color: #1873B9;
+  border: 1px solid #1873B9;
+}
+.top .search img {
+  height: 80%;
+  margin-left: 10px;
+  margin-top: 1%;
+}
+.top img {
+  height: 30px;
+  width: 35px;
+  margin-right: 2%;
+}
+.four-block {
+  width: 100%;
+  height: 150px;
+  padding: 5%;
+  background-color: #1B82D2;
+}
+.four-block ul {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.four-block ul li {
+  width: 15%;
+  height: 80%;
+  display: flex;
+  align-content: center;
+  background-size: 100% 100%;
+  margin-right: 5%;
+}
+.four-block .tup {
+  height: 60px;
+}
+.four-block .wenzi {
+  height: 20px;
+  color: white;
+}
+.four-block .wenzi li {
+  padding-left: 2%;
+  font-size: 16px;
+}
+.four-block .wenzi .nopad {
+  padding: 0;
+}
+.mokuai {
+  width: 100%;
+  height: 300px;
+  padding: 5%;
+}
+.mokuai dl {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+.mokuai dl dd {
+  display: flex;
+  width: 25%;
+  height: 20%;
+  justify-content: center;
+  align-content: center;
+}
+.mokuai dl dd img {
+  width: 30%;
+  height: 60%;
+}
+.mokuai dl dt {
+  text-align: center;
+  width: 25%;
+  height: 10%;
+  margin-bottom: 7%;
+}
+.mokuai dl .last {
+  position: absolute;
+  bottom: 5%;
+  right: 2%;
+  width: 15%;
+  height: 20%;
+}
+.grayline {
+  width: 100%;
+  height: 8px;
+  background-color: #ccc;
+}
+.ad {
+  width: 100%;
+  height: 150px;
+  background: url(../index/png_08.png);
+  background-size: 100% 100%;
+}
+.ad2 {
+  width: 100%;
+  height: 150px;
+  background: url(../index/png_06.png);
+  background-size: 100% 100%;
+}
+.news {
+  width: 100%;
+  height: 130px;
+  position: relative;
+}
+.news img {
+  height: 30px;
+  margin: 5px;
+}
+.news .main {
+  padding-left: 10%;
+  font-size: 16px;
+}
+.news .main p {
+  font-size: 12px;
+}
+.news span {
+  width: 30px;
+  height: 20px;
+  background: url(../index/png_14.png);
+  background-size: 100% 100%;
+  position: absolute;
+  right: 0;
+  top: 5px;
+}
+.news .more {
+  width: 100%;
+  height: 30px;
+  background-color: #eee;
+  color: #ccc;
+  text-align: center;
+  line-height: 30px;
+  font-size: 12px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.dixian {
+  width: 100%;
+  height: 40px;
+  background-color: #ccc;
+  text-align: center;
+  line-height: 40px;
+  color: #888;
+  font-size: 12px;
+  margin-bottom: 50px;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: white;
+}
+.footer ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.footer li {
+  width: 25%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer li a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer li a img {
+  height: 80%;
+}
+.hidtop {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #1B82D2;
+}
+.hidtop dl {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.hidtop dl dt {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.hidtop dl dt img {
+  width: 70%;
+  height: 70%;
+  margin-top: 5px;
+}
+.hidtop dl dd {
+  width: 10%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.hidtop dl dd img {
+  width: 80%;
+  height: 80%;
+  margin-top: 10px;
+}

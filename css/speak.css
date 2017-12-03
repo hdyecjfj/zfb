@@ -1,0 +1,452 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "微软雅黑";
+}
+.body {
+  display: flex;
+  flex-direction: column;
+}
+.top {
+  width: 100%;
+  height: 50px;
+  background-color: #D32D38;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+.top dl {
+  width: 15%;
+  height: 60%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+.top dl dd {
+  width: 80%;
+}
+.top dl dd.img {
+  width: 30%;
+}
+.top dl dd.img img {
+  width: 50%;
+  height: 30%;
+}
+.top .search {
+  width: 60%;
+  height: 60%;
+  background-color: #BA2831;
+  display: flex;
+  align-items: center;
+}
+.top .search input {
+  background-color: #BA2831;
+  border: 1px solid #BA2831;
+  padding-left: 5px;
+}
+.top img {
+  width: 10%;
+  height: 60%;
+}
+.ad {
+  width: 95%;
+  height: 80px;
+  margin: 10px;
+  background-image: url(../speak/Screenshot_2017-09-29-10-50-19_17.png);
+  background-size: 100% 100%;
+}
+.mokuai {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.mokuai ul {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.mokuai ul li {
+  width: 15%;
+  height: 40%;
+  margin: 2%;
+  background-image: url(../speak/Screenshot_20170929-163712_03.png);
+  background-size: 100% 100%;
+}
+.mokuai ul li:nth-child(2) {
+  background-image: url(../speak/Screenshot_20170929-163712_05.png);
+}
+.mokuai ul li:nth-child(3) {
+  background-image: url(../speak/Screenshot_20170929-163712_07.png);
+}
+.mokuai ul li:nth-child(4) {
+  background-image: url(../speak/Screenshot_20170929-163712_09.png);
+}
+.mokuai ul li:nth-child(5) {
+  background-image: url(../speak/Screenshot_20170929-163712_11.png);
+}
+.mokuai ul li:nth-child(6) {
+  background-image: url(../speak/Screenshot_20170929-163712_19.png);
+}
+.mokuai ul li:nth-child(7) {
+  background-image: url(../speak/Screenshot_20170929-163712_20.png);
+}
+.mokuai ul li:nth-child(8) {
+  background-image: url(../speak/Screenshot_20170929-163712_21.png);
+}
+.mokuai ul li:nth-child(9) {
+  background-image: url(../speak/Screenshot_20170929-163712_23.png);
+}
+.mokuai ul li:nth-child(10) {
+  background-image: url(../speak/Screenshot_20170929-163712_25.png);
+}
+.mokuai span {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #666;
+  position: absolute;
+  bottom: -10px;
+  left: 52%;
+}
+.mokuai .gray {
+  background-color: #BA2831;
+  left: 48%!important ;
+}
+.adsmall {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.adsmall img {
+  width: 25%;
+  height: 100%;
+}
+.adsmall p {
+  width: 68%;
+  height: 100%;
+  font-size: 14px;
+  padding-top: 10px;
+  line-height: 150%;
+}
+.gdline {
+  width: 100%;
+  height: 10px;
+  background-color: #ccc;
+}
+.youhui {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.youhui div {
+  width: 100%;
+  height: 20px;
+  padding-left: 40%;
+  margin-bottom: 10px;
+}
+.youhui div img {
+  width: 8%;
+  height: 80%;
+  margin: 5px 10px 0 0 ;
+}
+.youhui img {
+  width: 90%;
+  height: 80%;
+  margin-left: 20px;
+}
+.eye {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.eye div {
+  width: 100%;
+  height: 20px;
+  padding-left: 40%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.eye div img {
+  width: 8%;
+  height: 80%;
+  margin: 5px 10px 0 0 ;
+}
+.eye div span {
+  color: black;
+}
+.eye span {
+  width: 100%;
+  height: 20px;
+  color: #666;
+  text-align: center;
+  font-size: 13px;
+}
+.eye dl {
+  width: 90%;
+  height: 300px;
+  margin: 10px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.eye dl dt {
+  width: 49%;
+  height: 48%;
+  background-image: url(../speak/Screenshot_2017-09-29-10-50.png);
+  background-size: 100% 100%;
+}
+.eye dl dt:nth-child(2) {
+  background-image: url(../speak/Screenshot_2017-09-29-10-50-19_05.png);
+}
+.eye dl dd {
+  width: 32%;
+  height: 48%;
+  background-size: 100% 100%;
+  background-image: url(../speak/Screenshot_2017-09-29-10-50-19_09.png);
+}
+.eye dl dd:nth-child(4) {
+  background-image: url(../speak/Screenshot_2017-09-29-10-50-19_11.png);
+}
+.eye dl dd:nth-child(5) {
+  background-image: url(../speak/Screenshot_2017-09-29-10-50-19_13.png);
+}
+.hotping {
+  width: 100%;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.hotping .title {
+  width: 90%;
+  height: 20px;
+  font-size: 16px;
+  font-weight: 500px;
+  border-left: 5px solid #FC6165;
+  padding-left: 5px;
+  margin: 10px auto;
+}
+.hotping dl {
+  width: 90%;
+  height: 120px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.hotping dl dt {
+  width: 33%;
+  height: 90%;
+  background-size: 100% 100%;
+  background-image: url(../speak/Screenshot_2017-09-29-10-50-19_43.png);
+}
+.hotping dl dt:nth-child(2) {
+  background-image: url(../speak/Screenshot_2017-09-29-10-50-19_45.png);
+}
+.hotping dl dt:nth-child(2) {
+  background-image: url(../speak/Screenshot_2017-09-29-10-50-19_47.png);
+}
+.hotping dl dd {
+  width: 33%;
+  height: 20px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.hotping dl dd span {
+  font-size: 12px;
+  color: #F69196;
+  font-weight: normal;
+}
+.hotping .more {
+  width: 120px;
+  height: 25px;
+  line-height: 25px;
+  border: 1px solid #ddd;
+  margin: 0 auto;
+  text-align: center;
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+.dingzhi {
+  width: 100%;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.dingzhi .title {
+  width: 100%;
+  height: 20px;
+  padding-left: 40%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  line-height: 20px;
+}
+.dingzhi .title img {
+  width: 8%;
+  height: 80%;
+  margin-top: 5px;
+}
+.dingzhi .title span {
+  color: black;
+  font-size: 14px;
+  height: 20px;
+  line-height: 20px;
+  margin-top: -10px;
+}
+.dingzhi span {
+  width: 100%;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  color: #909090;
+  font-size: 12px;
+}
+.dingzhi ul {
+  width: 90%;
+  height: 60px;
+  margin: 10px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.dingzhi ul li {
+  width: 26%;
+  height: 100%;
+  background-size: 100% 100%;
+}
+.dingzhi ul li.dz-li-last {
+  width: 16%;
+  height: 100%;
+  background-color: #F5F5F5;
+  text-align: center;
+  font-size: 14px;
+  padding-top: 10px;
+  color: #909090;
+}
+.dingzhi ul li:nth-child(1) {
+  background-image: url(../speak/Screenshot_2017-09-29-10-50-19_01_17.png);
+}
+.dingzhi ul li:nth-child(2) {
+  background-image: url(../speak/Screenshot_2017-09-29-10-50-19_01_13.png);
+}
+.dingzhi ul li:nth-child(3) {
+  background-image: url(../speak/Screenshot_2017-09-29-10-50-19_01_15.png);
+}
+.dingzhi .tuijian {
+  width: 90%;
+  margin: 10px auto;
+  height: 100px;
+  border-bottom: 1px solid #F4F4F4;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.dingzhi .tuijian .new {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.dingzhi .tuijian img {
+  width: 25%;
+  height: 100%;
+}
+.dingzhi .tuijian .wenzi {
+  width: 72%;
+  height: 100%;
+}
+.dingzhi .tuijian .wenzi h1 {
+  font-size: 16px;
+}
+.dingzhi .tuijian .wenzi dl {
+  width: 100%;
+  height: 20%;
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  color: #ccc;
+  font-size: 12px;
+}
+.dingzhi .tuijian .wenzi p {
+  width: 100%;
+  height: 25%;
+  font-size: 16px;
+  color: #F17C80;
+  margin-bottom: 5px;
+}
+.dingzhi .tuijian .wenzi span {
+  width: 100%;
+  height: 20%;
+  color: #D7BF9A;
+  font-size: 15px;
+}
+.dingzhi .more {
+  width: 50%;
+  height: 30px;
+  margin: 10px auto;
+  border: 1px solid #E9E9E9;
+  line-height: 30px;
+}
+.lastline {
+  margin-bottom: 50px;
+}
+.guding {
+  width: 20px;
+  height: 70px;
+  position: fixed;
+  right: 0;
+  bottom: 45%;
+}
+.guding img {
+  width: 20px;
+  height: 70px;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: white;
+}
+.footer ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.footer li {
+  width: 25%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer li a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer li a img {
+  height: 80%;
+}
